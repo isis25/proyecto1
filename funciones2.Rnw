@@ -1,6 +1,9 @@
-#Trabajando con funciones
-#function(){}
+\documentclass{article}
 
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+<<>>=
 suma <- function(x, y){
   adicion <= x+y
   resta <- x-y
@@ -9,3 +12,6 @@ suma <- function(x, y){
   print(resta)
   print(multuplicacion)
 }
+
+
+\end{document}
